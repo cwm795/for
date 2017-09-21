@@ -10,3 +10,9 @@ console.log("Hi");
 for(var j = 4096; j  >= 1; j /= 2 ) {
 	console.log("Current Value is", j);
 }
+
+var presidents = ["George Washington", "John Adams", "Thomas Jefferson", "Abraham Lincoln"];
+
+for(var c = 0; c < presidents.length; c++) {
+	console.log("Presidents #" + (c + 1) + " " + presidents[c]);
+}
